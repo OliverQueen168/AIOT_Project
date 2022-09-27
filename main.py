@@ -1,4 +1,4 @@
-print("AIoT Gateway")
+print("Hello AIoT")
 import sys
 import time
 import serial.tools.list_ports
@@ -6,7 +6,7 @@ from Adafruit_IO import MQTTClient
 
 AIO_FEED_IDS = ["actuator1", "actuator2", "sensor1", "sensor2", "sensor3", "visiondetector"]
 AIO_USERNAME = "khoikieu1608"
-AIO_KEY = "aio_HcIW546XzVYqwO3nClDqXA18neLW"
+AIO_KEY = ""
 
 def connected(client):
     print("Connect Successfully ...")
